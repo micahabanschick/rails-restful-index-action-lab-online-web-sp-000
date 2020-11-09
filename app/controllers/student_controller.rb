@@ -2,7 +2,7 @@ class StudentController < ApplicationController
   
   def students  
     @students = Student.all 
-    render :"student/index"
+    render "student/index"
   end 
   
 end 
